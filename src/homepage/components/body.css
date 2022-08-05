@@ -1,0 +1,101 @@
+.body{
+    /* margin-top: 3%; */
+    background-image: url("/public/DesignPict.PNG");
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+    /* background-size:1550px 350px; */
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* background-position: center center; */
+
+}
+
+
+.body h1{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 50px;
+    margin-top: 1px;
+}
+
+.body p{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.body input[type="submit"]{
+    height: 30px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: rgba(31, 33, 31, 0.938);
+    border: 0;
+    color: rgb(254, 254, 254);
+}
+
+.body form{
+    height: 30px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .body{
+       
+    }
+
+    
+
+  } 
+
+
+  /* *{padding: 0; margin: 0; box-sizing: border-box;} */
+body{height: 900px;}
+/* header {
+	background: url('https://c4.wallpaperflare.com/wallpaper/997/503/724/bar-alcohol-drinks-wallpaper-preview.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size:cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #00000069 10%, #dc9aff6b 110%);
+	
+} */
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	
+}
+button:hover{
+	cursor: pointer;
+    box-shadow: 0 3px 20px 0 #0000003b;
+}

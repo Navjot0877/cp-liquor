@@ -25,6 +25,7 @@ function ResetPassword(){
     }
 
     const resetPassword = async() =>{
+        if(password === cf_password){
         try {
             axios.post("http://localhost:9005/reset", {password}, {
                 headers: {Authorization: token}
@@ -35,6 +36,9 @@ function ResetPassword(){
         } catch (err) {
             alert(err)
         }
+    }else{
+        alert("Both password are different")
+    }
     }
 
     console.log(token)

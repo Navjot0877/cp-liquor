@@ -22,7 +22,7 @@ function ForgotPassword(){
         try {
             axios.post("http://localhost:9005/forgotPassword", {email}).then((res) => {
             alert(res.data.message);
-             navigate("/login");
+            //navigate("/login");
   })
         } catch (err) {
             alert(err)

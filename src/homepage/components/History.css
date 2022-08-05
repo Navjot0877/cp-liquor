@@ -1,0 +1,37 @@
+
+.history{
+    width: 400px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: 100px;
+
+}
+
+.history-items{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.history h4{
+    margin: 0;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    
+}
+.history-items figure{
+    margin: 0;
+}
+.history-items figure img{
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.history-item{
+    margin: 20px;
+}
+
+.history-item p{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}

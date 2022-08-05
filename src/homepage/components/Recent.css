@@ -1,0 +1,37 @@
+
+.recent{
+    width: 400px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: 100px;
+
+}
+
+.recent-items{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.recent h4{
+    margin: 0;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    
+}
+.recent-items figure{
+    margin: 0;
+}
+.recent-items figure img{
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.recent-item{
+    margin: 20px;
+}
+
+.recent-item p{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}

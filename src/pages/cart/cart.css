@@ -1,0 +1,185 @@
+body{
+ 
+    /* background-color: #ffffff; */
+    height: 100vh;
+    
+    
+   }
+
+   .Cart-Container_cart{
+    
+    height: 100vh;
+    width: 100%;
+
+    
+    /* background: linear-gradient(to bottom right, #fff1e3, #FAFCFF); */
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #d97e1633;
+   }
+
+   .Header_cart{
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .Heading_cart{
+    font-size: 20px;
+    font-family: ‘Open Sans’;
+    font-weight: 700;
+    color: #2F3841;
+   }
+   .Action_cart{
+    font-size: 14px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+    border-bottom: 1px solid #E44C4C;
+   }
+   .Cart-Items_cart{
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .image-box_cart{
+    width: 15%;
+    text-align: center;
+   }
+
+   .about_cart{
+    height: 100%;
+    width: 20%;
+    
+   }
+
+  .title_cart{
+    text-align: left;
+    margin: 0;
+    line-height: 5px;
+    font-size: 18px;
+    font-family:'Open Sans';
+    font-weight: 600;
+    color: #909090;
+   }
+   .subtitle_cart{
+    line-height: 30px;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #202020;
+   } 
+
+  
+   .count_cart{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+   .btn_cart{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: ‘Open Sans’;
+    font-weight: 900;
+    color: #202020;
+    cursor: pointer;
+   }
+   .count_cart{
+    font-size: 20px;
+    font-family: ‘Open Sans’;
+    font-weight: 900;
+    color: #202020;
+   }
+
+   .prices_cart{
+    height: 100%;
+    text-align: right;
+   }
+
+   .amount_cart{
+    padding-top: 20px;
+    font-size: 26px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    float: right;
+    color: #202020;
+   }
+   .save_cart{
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #1687d9;
+    float: right;
+    cursor: pointer;
+   }
+   .remove_cart{
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+    float: right;
+   }
+
+   hr_cart{
+    width: 66%;
+    float: right;
+    margin-right: 5%;
+   }
+   .checkout_cart{
+    float: right;
+    margin-right: 5%;
+    width: 28%;
+   }
+   .total_cart{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   }
+   .Subtotal_cart{
+    font-size: 22px;
+    font-family: ‘Open Sans’;
+    font-weight: 700;
+    color: #202020;
+   }
+   .items_cart{
+    font-size: 16px;
+    font-family: ‘Open Sans’;
+    font-weight: 500;
+    color: #909090;
+    line-height: 10px;
+   }
+   .total-amount_cart{
+    font-size: 36px;
+    font-family: ‘Open Sans’;
+    font-weight: 900;
+    color: #202020;
+   }
+   .button_cart{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: #202020;
+   }
