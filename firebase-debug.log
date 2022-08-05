@@ -1,0 +1,109 @@
+[debug] [2022-08-05T06:56:10.914Z] ----------------------------------------------------------------------
+[debug] [2022-08-05T06:56:10.916Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-05T06:56:10.917Z] CLI Version:   11.4.2
+[debug] [2022-08-05T06:56:10.917Z] Platform:      win32
+[debug] [2022-08-05T06:56:10.918Z] Node Version:  v16.15.0
+[debug] [2022-08-05T06:56:10.919Z] Time:          Fri Aug 05 2022 00:56:10 GMT-0600 (Mountain Daylight Saving Time)
+[debug] [2022-08-05T06:56:10.919Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-05T06:56:10.930Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-05T06:56:10.931Z] > authorizing via signed-in user (navjotrandhawa1007@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dell\Downloads\merg\merge\merge\merge\merge\capstonLogin
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-08-05T06:57:16.480Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-08-05T06:57:16.481Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"cp-liquor","name":"cp-liquor"}
+[debug] [2022-08-05T06:57:17.512Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2022-08-05T06:57:17.513Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.8314589636321329948"}
+[debug] [2022-08-05T06:57:17.515Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8314589636321329948 [none]
+[debug] [2022-08-05T06:57:18.040Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8314589636321329948 200
+[debug] [2022-08-05T06:57:18.040Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8314589636321329948 {"name":"operations/cp.8314589636321329948"}
+[debug] [2022-08-05T06:57:18.553Z] [Project Creation Poller] Retrying task index 0
+[debug] [2022-08-05T06:57:18.554Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8314589636321329948 [none]
+[debug] [2022-08-05T06:57:19.093Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8314589636321329948 200
+[debug] [2022-08-05T06:57:19.093Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8314589636321329948 {"name":"operations/cp.8314589636321329948"}
+[debug] [2022-08-05T06:57:20.099Z] [Project Creation Poller] Retrying task index 0
+[debug] [2022-08-05T06:57:20.100Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8314589636321329948 [none]
+[debug] [2022-08-05T06:57:20.852Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8314589636321329948 200
+[debug] [2022-08-05T06:57:20.852Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8314589636321329948 {"name":"operations/cp.8314589636321329948","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2022-08-05T06:57:22.853Z] [Project Creation Poller] Retrying task index 0
+[debug] [2022-08-05T06:57:22.854Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8314589636321329948 [none]
+[debug] [2022-08-05T06:57:23.489Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8314589636321329948 200
+[debug] [2022-08-05T06:57:23.489Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8314589636321329948 {"name":"operations/cp.8314589636321329948","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"95284532323","projectId":"cp-liquor","lifecycleState":"ACTIVE","name":"cp-liquor","createTime":"2022-08-05T06:57:18.535Z"}}
+[debug] [2022-08-05T06:57:23.491Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/cp-liquor:addFirebase [none]
+[debug] [2022-08-05T06:57:25.338Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/cp-liquor:addFirebase 200
+[debug] [2022-08-05T06:57:25.338Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/cp-liquor:addFirebase {"name":"operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl"}
+[debug] [2022-08-05T06:57:25.338Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl [none]
+[debug] [2022-08-05T06:57:25.842Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl 200
+[debug] [2022-08-05T06:57:25.842Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl {"name":"operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl"}
+[debug] [2022-08-05T06:57:26.354Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2022-08-05T06:57:26.354Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl [none]
+[debug] [2022-08-05T06:57:26.938Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl 200
+[debug] [2022-08-05T06:57:26.938Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl {"name":"operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl"}
+[debug] [2022-08-05T06:57:27.940Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2022-08-05T06:57:27.940Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl [none]
+[debug] [2022-08-05T06:57:28.442Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl 200
+[debug] [2022-08-05T06:57:28.442Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl {"name":"operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl"}
+[debug] [2022-08-05T06:57:30.446Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2022-08-05T06:57:30.446Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl [none]
+[debug] [2022-08-05T06:57:30.876Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl 200
+[debug] [2022-08-05T06:57:30.877Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl {"name":"operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl"}
+[debug] [2022-08-05T06:57:34.879Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2022-08-05T06:57:34.879Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl [none]
+[debug] [2022-08-05T06:57:35.260Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl 200
+[debug] [2022-08-05T06:57:35.261Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl {"name":"operations/workflows/OWQ4MDkwNTAtZDhhYy00NmRlLTljODEtNGFmNTk5YjUxY2Jl","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"cp-liquor","projectNumber":"95284532323","displayName":"cp-liquor","name":"projects/cp-liquor","resources":{"hostingSite":"cp-liquor"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: cp-liquor
+[info]    - Project Name: cp-liquor
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/cp-liquor/overview
+[info] i  Using project cp-liquor (cp-liquor) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-05T06:57:54.120Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-05T06:57:54.362Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-05T06:57:54.362Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.2","browserURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Dell\Downloads\merg\merge\merge\merge\merge\capstonLogin 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=743356307&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-05T06:59:34.215Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-05T06:59:34.215Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-05T06:59:34.602Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-05T06:59:34.602Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-05T06:59:34.611Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-05T06:59:35.000Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-05T06:59:35.000Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Navjot0877","id":98129028,"node_id":"U_kgDOBdlUhA","avatar_url":"https://avatars.githubusercontent.com/u/98129028?v=4","gravatar_id":"","url":"https://api.github.com/users/Navjot0877","html_url":"https://github.com/Navjot0877","followers_url":"https://api.github.com/users/Navjot0877/followers","following_url":"https://api.github.com/users/Navjot0877/following{/other_user}","gists_url":"https://api.github.com/users/Navjot0877/gists{/gist_id}","starred_url":"https://api.github.com/users/Navjot0877/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Navjot0877/subscriptions","organizations_url":"https://api.github.com/users/Navjot0877/orgs","repos_url":"https://api.github.com/users/Navjot0877/repos","events_url":"https://api.github.com/users/Navjot0877/events{/privacy}","received_events_url":"https://api.github.com/users/Navjot0877/received_events","type":"User","site_admin":false,"name":"Navjot Randhawa","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":11,"public_gists":0,"followers":1,"following":2,"created_at":"2022-01-20T22:14:21Z","updated_at":"2022-07-26T20:39:14Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":1447,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Navjot0877 
+[info] 
